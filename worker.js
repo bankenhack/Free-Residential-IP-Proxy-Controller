@@ -6,10 +6,10 @@ export default {
     const domain = url.origin;
 
     // --- 提取并处理云端安全隔离变量 ---
-    const WEB_USER = env.WEB_USER || "admin";        
-    const WEB_PASS = env.WEB_PASS || "admin888";     
-    const PROXY_USER = env.PROXY_USER || "proxy";    
-    const PROXY_PASS = env.PROXY_PASS || "888888";   
+    const WEB_USER = env.WEB_USER || "tmdsb";        
+    const WEB_PASS = env.WEB_PASS || "tmdhack";     
+    const PROXY_USER = env.PROXY_USER || "tmd";    
+    const PROXY_PASS = env.PROXY_PASS || "tmd888";   
 
     // ====================================================
     // [基础防御] 浏览器与安全节点 Basic Auth 鉴权函数
