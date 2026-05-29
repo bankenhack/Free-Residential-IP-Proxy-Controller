@@ -102,6 +102,9 @@ http://proxy:888888@<VPS母机IP>:7920
 
 ```
 
+VPS实时日志查看命令
+journalctl -u proxy-lite.service -f
+
 ---
 
 ## ⚠️ 声明与限制
